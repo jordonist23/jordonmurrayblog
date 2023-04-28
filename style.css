@@ -1,0 +1,246 @@
+@import url('https://css.gg/menu.css');
+html{
+    overflow-y: scroll; 
+    background-color: #f0f0e3;
+}
+.backgroundImg {
+    background: url("assets/pexels-philippe-donn-1169754.jpg");
+    background-size: cover;
+    width:100%;
+    height: 500px;
+ 
+    overflow: hidden;
+    z-index: 0;
+    margin: 0%;
+    text-align: center;
+}
+
+body {
+/* font-family: "Lucida Console", "Courier New", monospace; */
+font-family: 'Fira Sans', sans-serif;
+color: #19161f;
+overflow: hidden;
+margin:0;
+transition: 0.5s;
+z-index: 3;
+}
+header {
+    font-size: 1.25em;  
+    padding: 1.5em 1.75em;
+    color: rgba(0, 0, 0, 0.327);
+    padding-bottom: 1em; 
+    
+}
+ul{
+   
+    padding: 0;
+}
+li {
+    list-style: none;
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.1); */
+
+}
+
+.fa-thought-bubble {
+    font-size: 3em;
+    color: inherit; 
+}
+.fa-bars {
+    /* color: chocolate; */
+    color: inherit;
+}
+.fa-brush{
+    font-size: 3em;
+    color: inherit;
+}
+.fa-video{
+    color: inherit;
+}
+.fa-film{
+    font-size: 3em;
+    color: inherit;
+}
+.fa-music{
+    font-size: 3em;
+    color: inherit;
+}
+.fa-burger{
+    font-size: 3em;
+    color: inherit;
+}
+.fa-lightbulb {
+font-size: 3em;
+color: inherit;
+}
+.fa-user-astronaut {
+    font-size: 3em;
+    color: inherit;
+    }
+    
+li a {
+    background: transparent;
+    display: block;
+    /* padding: 1.25em 1.5em;   */
+    text-decoration: 0;
+    font-size: 1.20em;
+    border: 0;
+    font-weight: 500;
+    padding: 1.5em 1.75em;
+    color: #000000dc;
+    
+}
+
+
+li a:active {
+    background: rgba(0,0,0,0.05);
+}
+
+li a:hover {
+    background: rgba(0,0,0,0.05);
+}
+
+.menuButton:hover{
+    color: rgb(249, 104, 0);
+    border: 1px solid rgb(249, 104, 0);
+   
+}
+h1{
+    padding-top: 6.5%;
+   text-align: center; 
+    color:#fff;
+    font-size: 5em;
+    color: chocolate;
+
+}
+
+.menuButtonSpan {
+    position: fixed;
+     right: 0; 
+/* text-align: right; */
+padding-right: .5em;
+padding-top: .5em;
+
+}
+.menuButton {
+
+    background: transparent;
+    padding: .5em;
+    color: chocolate;
+    border: 1px solid chocolate; 
+    outline: none; 
+    font-size: .75em;
+    border-radius: .35em;
+    z-index: 0;
+}
+span{
+    font-size: 2em;
+    display: block;
+    color: chocolate;
+    
+}
+.side-menu {  
+    background: #e1e1d5;
+    position: fixed;
+    margin-right: -20em;
+    transition: 0.5s;
+    height: 100%;
+    right: 0;
+    width: 20em;
+    z-index: 100;
+}
+.show-sidemenu{
+    margin-right:0;
+}
+.push-body{
+    transition: 0.5s;
+    margin-right:20em;
+}
+.pull-body{
+    transition: 0.5s;
+    margin-right:-20em;
+}
+.hide-button{
+    visibility: hidden;
+    cursor: not-allowed;
+}
+.show-button{
+    visibility: visible;
+}
+.hide-sideMenu{
+    margin-right: -20em;
+}
+
+.modal-form{
+	position: relative;
+}
+.close-button{
+	position: absolute;
+	transition: transform .25s, opacity .25s;
+	opacity: .7;
+	cursor: pointer;
+	font-size: 3em;
+	font-family: serif;
+	line-height: 1;
+    right: 0;
+    margin: .65em;
+    color: rgba(0, 0, 0, 0.327);
+   
+    
+}
+.close-button:before{
+	content: "\d7";
+}
+.close-button:hover{
+	opacity: 1;
+	transform: rotate(90deg);
+}
+.container{
+padding: 2em;
+}
+.post{
+display: block;
+width: 90%;
+height: 21.5em;
+border-radius: 2em;
+text-align: center;
+border-radius: 1.5em;
+border-bottom: 1px solid rgba(0, 0, 0, 0.10);
+padding: 2em;
+box-shadow: black;
+white-space: normal;
+margin: 0 auto;
+}
+.post:hover{
+    background: rgba(0,0,0,0.05);    
+}
+h2{
+
+font-size: 2.5em;
+font-weight: 1600;
+padding: 0;
+margin-bottom: 0;
+}
+.subtitle{
+
+padding: 0.5em; 
+color: #000000d5;  
+font-size: 1.5em; 
+}
+p{
+    max-width: 50em;
+    text-align:center; 
+    margin: 0 auto;
+    font-size: 1.15em;
+    padding-top: 0em; 
+    padding-bottom: 2em;
+    
+    letter-spacing: .25em;
+    line-height: 1.5em;
+}
+
+
+  html {
+    font-size: calc(10px + 0.390625vw);
+}
+
+
