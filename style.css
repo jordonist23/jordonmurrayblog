@@ -1,7 +1,7 @@
 @import url('https://css.gg/menu.css');
 html{
     overflow-y: scroll; 
-    background-color: #f0f0e3;
+    background-color: whitesmoke;
 }
 .backgroundImg {
     background: url("assets/pexels-philippe-donn-1169754.jpg");
@@ -139,7 +139,7 @@ span{
     
 }
 .side-menu {  
-    background: #e1e1d5;
+    background-color: whitesmoke;
     position: fixed;
     margin-right: -20em;
     transition: 0.5s;
@@ -209,6 +209,7 @@ padding: 2em;
 box-shadow: black;
 white-space: normal;
 margin: 0 auto;
+background-color: #fff;
 }
 .post:hover{
     background: rgba(0,0,0,0.05);    
@@ -243,4 +244,9 @@ p{
     font-size: calc(10px + 0.390625vw);
 }
 
+@media (width <= 600px){
+    .menuButton{
+        visibility: hidden;
+    }
+}
 
