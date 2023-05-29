@@ -3,6 +3,23 @@ html{
     overflow-y: scroll; 
     background-color: whitesmoke;
 }
+
+
+body {
+/* font-family: "Lucida Console", "Courier New", monospace; */
+font-family: 'Fira Sans', sans-serif;
+color: #19161f;
+overflow: hidden;
+margin:0;
+transition: 0.5s;
+z-index: 3;
+}
+
+a {
+ text-decoration: none;
+ color: inherit;
+}
+
 .backgroundImg {
     background: url("assets/pexels-philippe-donn-1169754.jpg");
     background-size: cover;
@@ -15,15 +32,6 @@ html{
     text-align: center;
 }
 
-body {
-/* font-family: "Lucida Console", "Courier New", monospace; */
-font-family: 'Fira Sans', sans-serif;
-color: #19161f;
-overflow: hidden;
-margin:0;
-transition: 0.5s;
-z-index: 3;
-}
 header {
     font-size: 1.25em;  
     padding: 1.5em 1.75em;
